@@ -1,0 +1,132 @@
+  <section>
+          <nav id="vMenu">
+            <ul>
+              <li>
+                <a href pl-2>
+                  <span>
+                    <FontAwesomeIcon icon={faHome} />
+                  </span>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faFire} />
+                  </span>
+                  Trending
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faVideo} />
+                  </span>
+                  Subscription
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faFileVideo} />
+                  </span>
+                  library
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faHistory} />
+                  </span>
+                  history
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faPlayCircle} />
+                  </span>
+                  Your video
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faClock} />
+                  </span>
+                  watch later
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faUser} />
+                  </span>
+                  Subscription
+                </a>
+              </li>
+              <li>
+                <a href>
+                  <span>
+                    <FontAwesomeIcon icon={faVideoSlash} />
+                  </span>
+                  More from youtube
+                </a>
+              </li>
+              <li>
+                <a href>JavaScript</a>
+              </li>
+              <li>
+                <a href>React</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+         faFire,
+  faHome,
+  faFileVideo,
+  faVideo,
+  faPlayCircle,
+  faHistory,
+  faClock,
+  faVideoSlash,
+  faUser
+  //
+  import React from 'react';
+import ReactDOM from 'react-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+import {
+  faBars,
+  faSearch,
+  faVideo,
+  faTh,
+  faBell,
+  faUserCircle,
+  faFire,
+  faHome,
+  faFileVideo,
+  faPlayCircle,
+  faHistory,
+  faClock,
+  faVideoSlash,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(
+  faBars,
+  faSearch,
+  faVideo,
+  faTh,
+  faBell,
+  faUserCircle,
+  faFire,
+  faHome,
+  faFileVideo,
+  faVideo,
+  faPlayCircle,
+  faHistory,
+  faClock,
+  faVideoSlash,
+  faUser
+);
